@@ -1,0 +1,35 @@
+{
+  "name": "enhe-echarts-panel",
+  "version": "1.0.0",
+  "description": "echarts面板",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build --skipLint",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "zhoukai",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "@types/lodash": "^4.14.182",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-import": "^1.13.5",
+    "emotion": "10.0.27"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "antd": "^4.21.6",
+    "css-to-style": "^1.4.0",
+    "echarts": "^5.3.3"
+  }
+}
